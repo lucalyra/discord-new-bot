@@ -1,0 +1,31 @@
+{
+"bronze":{
+    "name":"bronze",
+    "offName":"Bronze"
+},
+
+"silver":{    
+    "name":"silver",
+    "offName":"Silver"
+},
+"gold":{   
+    "name":"gold",
+    "offName":"Gold"
+},
+"platinum":{    
+    "name":"platinum",
+    "offName":"Platinum"
+},
+"dimond":{    
+    "name":"dimond",
+    "offName":"Dimond"
+},
+"master":{   
+    "name":"master",
+    "offName":"Master"
+},
+"grandmaster":{    
+    "name":"grandmaster",
+    "offName":"GrandMaster"
+}
+}

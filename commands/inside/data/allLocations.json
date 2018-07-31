@@ -1,0 +1,13 @@
+{
+    "na":{
+        "name": "na",
+        "fullName": "North America",
+        "offName": "NA"
+    }, 
+    
+    "eu":{ 
+        "name": "eu",
+        "fullName": "Europe",
+        "offName": "EU"
+    }
+}

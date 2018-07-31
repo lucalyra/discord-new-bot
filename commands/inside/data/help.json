@@ -1,0 +1,37 @@
+{
+    "help":{
+        "name": "Help" ,
+        "command": "!help" ,
+        "description": "Show all the bot command in this channel."
+    },
+
+    "rank":{
+        "name": "Rank" ,
+        "command": "!rank" ,
+        "description": "Change/Add rank and location by writing '!rank <desired rank> <desired location>'."
+    },
+
+    "removeRank":{
+        "name": "Remove rank" ,
+        "command": "!removeRank" ,
+        "description": "Remove the rank you are asign."
+    },
+
+    "location":{
+        "name": "Location" ,
+        "command": "!location" ,
+        "description": "Change/Add only the location by writing '!location <desired location>'."
+    },
+
+    "removeLocation":{
+        "name": "Remove location" ,
+        "command": "!removeLocation" ,
+        "description": "Remove the location you are asign."
+    },
+    
+    "pin":{
+        "name": "Pin" ,
+        "command": "!pin" ,
+        "description": "Pin a massage to the channel. !pin <desired message>"
+    }
+}
