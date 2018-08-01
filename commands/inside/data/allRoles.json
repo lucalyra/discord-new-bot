@@ -1,0 +1,51 @@
+{
+    "bronze":{
+        "offName":"Bronze",
+        "color": "#cd7f32",
+        "permissions":"104324161"
+    },
+    
+    "silver":{
+        "offName":"Silver",
+        "color": "#c0c0c0",
+        "permissions":"104324161"
+    },
+    "gold":{
+        "offName":"Gold",
+        "color": "#ffd700",
+        "permissions":"104324161"
+    },
+    "platinum":{ 
+        "offName":"Platinum",
+        "color": "#e5e4e2",
+        "permissions":"104324161"
+    },
+    "dimond":{    
+        "offName":"Dimond",
+        "color": "#546e7a",
+        "permissions":"104324161"
+    },
+    "master":{   
+        "offName":"Master",
+        "color": "#a84300",
+        "permissions":"104324161"
+    },
+    "grandmaster":{    
+        "offName":"GrandMaster",
+        "color": "#992d22",
+        "permissions":"104324161"
+    },
+    "na":{
+        "fullName": "North America",
+        "offName": "NA",
+        "color": "#9b59b6",
+        "permissions":"104324161"
+    }, 
+    "eu":{ 
+        "fullName": "Europe",
+        "offName": "EU",
+        "color": "#1f8b4c",
+        "permissions":"104324161"
+    }
+}
+    

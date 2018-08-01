@@ -1,31 +1,45 @@
 {
 "bronze":{
     "name":"bronze",
-    "offName":"Bronze"
+    "offName":"Bronze",
+    "color": "",
+    "permissions":""
 },
 
 "silver":{    
     "name":"silver",
-    "offName":"Silver"
+    "offName":"Silver",
+    "color": "",
+    "permissions":""
 },
 "gold":{   
     "name":"gold",
-    "offName":"Gold"
+    "offName":"Gold",
+    "color": "",
+    "permissions":""
 },
 "platinum":{    
     "name":"platinum",
-    "offName":"Platinum"
+    "offName":"Platinum",
+    "color": "",
+    "permissions":""
 },
 "dimond":{    
     "name":"dimond",
-    "offName":"Dimond"
+    "offName":"Dimond",
+    "color": "",
+    "permissions":""
 },
 "master":{   
     "name":"master",
-    "offName":"Master"
+    "offName":"Master",
+    "color": "",
+    "permissions":""
 },
 "grandmaster":{    
     "name":"grandmaster",
-    "offName":"GrandMaster"
+    "offName":"GrandMaster",
+    "color": "",
+    "permissions":""
 }
 }
