@@ -1,10 +1,10 @@
 exports.run = (rank, member, message) => {
    
-    let rankData = require(`./data/allRanks.json`);
+    let rankData = require(`./data/allRoles.json`);
     rankLowerCase = rank.toLowerCase();
     
-    if (!rankData[rankLowerCase]){message.channel.send(`There is no such rank.. Please try again ${member}`); return}
-    
+    if (!rankData[rankLowerCase] || rankData[rankLowerCase].type !== "rank"){message.channel.send(`There is no such rank.. Please try again ${member}`); return}
+
     for(let k in rankData) {
         let o = rankData[k];
         checkExistence(o.offName);

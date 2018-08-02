@@ -10,19 +10,18 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-    if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
 
-    const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
-    const command = args.shift().toLowerCase();
-    
-    
-    
-    try {
-        let commandFile = require(`./commands/${command}.js`);
-        commandFile.run(client, message , args);
-      } catch (err) {
-        console.error(err);
-      }
+  const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
+  let isAdmin = (message.author.id == message.guild.ownerID);
+
+  try {
+    let commandFile = require(`./commands/${command}.js`);
+    commandFile.run(client, message , args, isAdmin);
+  } catch (err) {
+    console.error(err);
+  }
 });
 
 client.login(config.token);

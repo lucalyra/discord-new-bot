@@ -1,9 +1,10 @@
 exports.run = (location, member, message) => {
     
-    let locationData = require(`./data/allLocations.json`);
+    let locationData = require(`./data/allRoles.json`);
     location = location.toLowerCase();
 
-    if (!locationData[location]){message.channel.send(`There is no such location.. Please try again. ${member}`); return}
+    if (!locationData[location] || locationData[location].type !== "location"){message.channel.send(`There is no such location.. Please try again. ${member}`); return}
+
 
     for(let k in locationData) {
         let o = locationData[k];

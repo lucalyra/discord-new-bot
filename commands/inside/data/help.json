@@ -2,36 +2,53 @@
     "help":{
         "name": "Help" ,
         "command": "!help" ,
-        "description": "Show all the bot command in this channel."
+        "description": "Show all the bot command in this channel.",
+        "admin": false
+
     },
 
     "rank":{
         "name": "Rank" ,
         "command": "!rank" ,
-        "description": "Change/Add rank and location by writing '!rank <desired rank> <desired location>'."
+        "description": "Change/Add rank and location by writing '!rank <desired rank> <desired location>'.",
+        "admin": false
     },
 
     "removeRank":{
         "name": "Remove rank" ,
         "command": "!removeRank" ,
-        "description": "Remove the rank you are asign."
+        "description": "Remove the rank you are asign.",
+        "admin": false
+
     },
 
     "location":{
         "name": "Location" ,
         "command": "!location" ,
-        "description": "Change/Add only the location by writing '!location <desired location>'."
+        "description": "Change/Add only the location by writing '!location <desired location>'.",
+        "admin": false
+
     },
 
     "removeLocation":{
         "name": "Remove location" ,
         "command": "!removeLocation" ,
-        "description": "Remove the location you are asign."
+        "description": "Remove the location you are asign.",
+        "admin": false
+    },
+
+    "install":{
+        "name": "Install" ,
+        "command": "!install" ,
+        "description": "Initiate the first stage of the bot.",
+        "admin": true
+
     },
     
     "pin":{
         "name": "Pin" ,
         "command": "!pin" ,
-        "description": "Pin a massage to the channel. !pin <desired message>"
+        "description": "Pin a massage to the channel. !pin <desired message>",
+        "admin": true
     }
 }
