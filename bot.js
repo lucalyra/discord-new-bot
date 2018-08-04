@@ -16,6 +16,7 @@ client.on("message", (message) => {
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
   let isAdmin = (message.author.id == message.guild.ownerID );
+  
   console.log(message.channel.id)
   if(message.content == "!install"){let commandFile = require(`./commands/install.js`); commandFile.run(client, message , args, isAdmin)}
   if (!message.content.startsWith(config.prefix) || message.author.bot || message.channel.id !== config.botChannel) {return};
