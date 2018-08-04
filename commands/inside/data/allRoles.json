@@ -4,7 +4,8 @@
         "offName":"Bronze",
         "color": "#cd7f32",
         "permissions":"",
-        "type":"rank"
+        "type":"rank",
+        "position":""
     },
     
     "silver":{
@@ -12,42 +13,48 @@
         "offName":"Silver",
         "color": "#c0c0c0",
         "permissions":"",
-        "type":"rank"
+        "type":"rank",
+        "position":""
     },
     "gold":{
         "name":"gold",
         "offName":"Gold",
         "color": "#ffd700",
         "permissions":"",
-        "type":"rank"
+        "type":"rank",
+        "position":""
     },
     "platinum":{ 
         "name":"platinum",
         "offName":"Platinum",
         "color": "#e5e4e2",
         "permissions":"",
-        "type":"rank"
+        "type":"rank",
+        "position":""
     },
     "dimond":{  
         "name":"dimond",  
         "offName":"Dimond",
         "color": "#546e7a",
         "permissions":"",
-        "type":"rank"
+        "type":"rank",
+        "position":""
     },
     "master":{  
         "name":"master", 
         "offName":"Master",
         "color": "#a84300",
         "permissions":"",
-        "type":"rank"
+        "type":"rank",
+        "position":""
     },
     "grandmaster":{  
         "name":"grandmaster",  
         "offName":"GrandMaster",
         "color": "#992d22",
         "permissions":"",
-        "type":"rank"
+        "type":"rank",
+        "position":""
     },
     "na":{
         "name":"na",
@@ -55,7 +62,8 @@
         "offName": "NA",
         "color": "#9b59b6",
         "permissions":"",
-        "type":"location"
+        "type":"location",
+        "position":""
     }, 
     "eu":{ 
         "name":"eu",
@@ -63,7 +71,8 @@
         "offName": "EU",
         "color": "#1f8b4c",
         "permissions":"",
-        "type":"location"
+        "type":"location",
+        "position":""
     }
 }
     
